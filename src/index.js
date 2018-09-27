@@ -5,8 +5,10 @@ import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
 import { createStore } from 'redux';
-import todoApp from './reducers'
-const store = createStore(todoApp)
+// import todoApp from './reducers'
+// const store = createStore(todoApp)
+
+// console.log(store.getState())
 
 ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();
